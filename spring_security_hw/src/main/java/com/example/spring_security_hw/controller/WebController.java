@@ -18,4 +18,9 @@ public class WebController {
         return "private-data";
     }
 
+    @GetMapping("/login")
+    public String loginRequest(){
+        return "login";
+    }
+
 }
